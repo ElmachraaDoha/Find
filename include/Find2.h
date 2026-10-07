@@ -1,20 +1,21 @@
 #ifndef FIND2_H
 #define FIND2_H
 
+#include <string>
 #include <vector>
-using namespace std;
 
+// Find2 : version avec vector<char> et une boucle ecrite a la main
 class Find2
 {
 private:
-    vector<char> mot1;
-    vector<char> mot2;
+    std::vector<char> mot1;
+    std::vector<char> mot2;
 
 public:
-    Find2(vector<char> m1, vector<char> m2);
-    virtual ~Find2();
+    Find2(const std::string& m1, const std::string& m2);
 
-    bool Chercher() const;
+    bool Chercher() const;   // mot2 est-il dans mot1 ?
+    int  Compter() const;    // combien de fois ?
 };
 
 #endif

@@ -2,19 +2,19 @@
 #define FIND1_H
 
 #include <string>
-using namespace std;
 
+// Find1 : version avec std::string et la fonction find
 class Find1
 {
 private:
-    string mot1;
-    string mot2;
+    std::string mot1;
+    std::string mot2;
 
 public:
-    Find1(string m1, string m2);
-    virtual ~Find1();
+    Find1(const std::string& m1, const std::string& m2);
 
-    bool Chercher() const;
+    bool Chercher() const;   // mot2 est-il dans mot1 ?
+    int  Compter() const;    // combien de fois ?
 };
 
 #endif

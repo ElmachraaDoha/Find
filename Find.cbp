@@ -32,6 +32,8 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add option="-Wextra" />
+			<Add option="-std=c++11" />
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="include/Find1.h" />
@@ -39,6 +41,9 @@
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Find1.cpp" />
 		<Unit filename="src/Find2.cpp" />
+		<Unit filename="test.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

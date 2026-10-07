@@ -1,17 +1,5 @@
 # depslib dependency file v1.0
-1791214014 source:c:\users\doha\documents\uni\virtualisation\find\src\find1.cpp
-	"Find1.h"
-
-1791213996 c:\users\doha\documents\uni\virtualisation\find\include\find1.h
-	<string>
-
-1791214050 source:c:\users\doha\documents\uni\virtualisation\find\src\find2.cpp
-	"Find2.h"
-
-1791214031 c:\users\doha\documents\uni\virtualisation\find\include\find2.h
-	<vector>
-
-1791219545 source:c:\users\doha\documents\uni\virtualisation\find\main.cpp
+1791369154 source:c:\users\doha\downloads\find_v2\find\main.cpp
 	<iostream>
 	<fstream>
 	<string>
@@ -19,5 +7,18 @@
 	<chrono>
 	<iomanip>
 	"Find1.h"
+	"Find2.h"
+
+1791369183 c:\users\doha\downloads\find_v2\find\include\find1.h
+	<string>
+
+1791369209 c:\users\doha\downloads\find_v2\find\include\find2.h
+	<string>
+	<vector>
+
+1791369228 source:c:\users\doha\downloads\find_v2\find\src\find1.cpp
+	"Find1.h"
+
+1791369244 source:c:\users\doha\downloads\find_v2\find\src\find2.cpp
 	"Find2.h"
 
